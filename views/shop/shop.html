@@ -1,0 +1,14 @@
+<body ng-app="assessmentApp">
+<section class="lede section--padding-both">
+    <div class="container">
+        <p>Shop Page</p>
+    </div>
+
+</section>
+<div ng-repeat="product in products" class="product-grid__item   grid__item one-half large--one-third" >
+
+    <!--Repeat over your data and display it below -->
+    <product-directive product="product"></product-directive>
+    
+</div>
+</body>
